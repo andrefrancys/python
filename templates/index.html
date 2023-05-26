@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página HTML com CSS e JavaScript</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+    <h1>Minha Página</h1>
+    <p>Conteúdo da página.</p>
+    <p>{{ teste2 }}</p>
+    <p>{{ teste1 }}</p>
+</body>
+</html>
